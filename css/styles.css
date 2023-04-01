@@ -108,7 +108,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* or 150% */
+
 letter-spacing: 0.02em;
 color: #434455;
 flex: none;
@@ -194,7 +194,7 @@ flex-grow: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1,11px;
-  /* or 150% */
+
   letter-spacing: 0.02em;
   color: #F4F4FD;
   flex: none;
