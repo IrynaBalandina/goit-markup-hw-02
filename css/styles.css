@@ -120,7 +120,7 @@ color: var(--primary-color-navyblue);
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -129,6 +129,7 @@ color: var(--primary-color-navyblue);
 
 .order-button{
 background-color:#4D5AE5 ;
+color: #FFFFFF;
 }
 
 .features-list{
