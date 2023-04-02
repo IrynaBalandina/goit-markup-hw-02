@@ -1,21 +1,28 @@
 :root {
-    /* IRIS */
-    /* OCEAN */
+ --background-color:#FFFFFF ;
+ --cornflower: #E7E9FC
+ --navy-blue: #2E2F42
+ --cloud:#f4f4fd
+ --iris: #4D5AE5
+ --ocean: #404BBF
+ --slate:#434455
+--main-font: Roboto;sans-serif
+
   }
 
   .header-link{
-    font-family: 'Raleway' sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1,17px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-    order: 0;
-    flex-grow: 0;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+
   }
   .link {
     color: #2E2F42;
@@ -72,7 +79,7 @@ flex-grow: 0;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--light-text-color);
-    background: #4D5AE5;
+    background:var(--ocean);
     cursor: pointer;
 }
 
@@ -88,16 +95,16 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1,11px;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--primary-color-navyblue);
   }
 
   .section-hero{
     background-color:#2E2F42 ;
   }
   body{
-    font-family: 'Roboto'sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    font-family:var(main-font)
+    color: var(--slate);
+    background-color:var(--white);
   font-weight: 400;
   font-size: 16px;
   font-weight: 1.5;
@@ -271,6 +278,14 @@ flex-grow: 0;
    background-color: #F4F4FD;
 
   }
+
+  .filter-button:hover{
+    color:#4D5AE5 ;
+    background-color: #E7E9FC;
+
+    
+  }
+
   .features-subtitles{
     font-family: 'Roboto' sans-serif;
 font-style: normal;
