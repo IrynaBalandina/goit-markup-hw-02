@@ -1,12 +1,13 @@
 :root {
  --background-color:#FFFFFF ;
- --cornflower: #E7E9FC
- --navy-blue: #2E2F42
- --cloud:#f4f4fd
- --iris: #4D5AE5
- --ocean: #404BBF
- --slate:#434455
+ --cornflower: #E7E9FC ;
+ --navy-blue: #2E2F42 ;
+ --cloud:#f4f4fd ;
+ --iris: #4D5AE5 ;
+ --ocean: #404BBF ;
+ --slate:#434455 ;
 --main-font: Roboto;sans-serif
+--secondary-font:'Raleway' sans-serif;
   }
 
   .header-link{
