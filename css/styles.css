@@ -6,8 +6,7 @@
  --iris: #4D5AE5 ;
  --ocean: #404BBF ;
  --slate:#434455 ;
---main-font: Roboto;sans-serif
---secondary-font:'Raleway' sans-serif;
+
   }
 
   .header-link{
@@ -103,13 +102,13 @@ color: var(--primary-color-navyblue);
     background-color:#2E2F42 ;
   }
   body{
-    font-family:var(main-font)
-    color: var(--slate);
-    background-color:var(--white);
-  font-weight: 400;
-  font-size: 16px;
-  font-weight: 1.5;
-  letter-spacing: 0.02em
+    font-family: 'Roboto'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,2px;
+  background-color: var(--background-color);
+    letter-spacing: 0.02em;
   }
 
 .hero-body-title{
