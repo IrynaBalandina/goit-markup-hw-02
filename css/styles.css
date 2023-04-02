@@ -241,10 +241,14 @@ flex-grow: 0;
 }
 
 .filter-button-all{
+  font-family:'Roboto' ;
+  font-weight: 500;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  line-height: 1,5px;
+  letter-spacing: 0.04em;
   padding: 12px 24px;
   width: 126px;
   height: 48px;
