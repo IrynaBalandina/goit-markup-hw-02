@@ -162,6 +162,9 @@ order: 1;
 flex-grow: 0;
 }
 
+.team-section{
+  background-color: #F4F4FD ;
+}
 .sub-title{
     font-family: 'Roboto',sans-serif;
 font-style: normal;
@@ -178,7 +181,7 @@ color: #2E2F42;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height:1.2;
 
 letter-spacing: 0.02em;
 color: #2E2F42;
@@ -211,7 +214,7 @@ text-decoration: none;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
