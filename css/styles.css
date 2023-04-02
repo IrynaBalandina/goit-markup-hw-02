@@ -109,6 +109,7 @@ color: var(--primary-color-navyblue);
     line-height: 1,2px;
   background-color: var(--background-color);
     letter-spacing: 0.02em;
+    color: #434455;
   }
 
 .hero-body-title{
@@ -120,6 +121,7 @@ color: var(--primary-color-navyblue);
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    
 }
 
 .order-button{
