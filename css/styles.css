@@ -97,6 +97,11 @@ color: #434455;
   body{
     font-family: 'Roboto'sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 1.5;
+  letter-spacing: 0.02em
   }
 
 .hero-body-title{
@@ -218,7 +223,7 @@ flex-grow: 0;
   flex-grow: 0;
 }
 .footer-text-item{
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -231,18 +236,63 @@ flex-grow: 0;
   flex-grow: 0;
 }
 
+.filter-button-all{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 126px;
+  height: 48px;
+  background:#404BBF;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+    }
+
+  
+
   .filter-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5px;
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-width: 126px;
-height: 48px;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   background-color: #F4F4FD;
+
+  }
+  .features-subtitles{
+    font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1,5px;
+letter-spacing: 0.02em;
+color: #2E2F42;
 flex: none;
-order: 4;
+order: 0;
+flex-grow: 0;
+  }
+
+  .features-items{
+    font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455
+flex: none;
+order: 1;
 flex-grow: 0;
   }
