@@ -94,6 +94,10 @@ color: #434455;
   .section-hero{
     background-color:#2E2F42 ;
   }
+  .main-content{
+    font-family: 'Roboto'sans-serif;
+    color: #434455;
+  }
 
 .hero-body-title{
     font-family: 'Roboto';
