@@ -15,14 +15,11 @@
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
-
+line-height: 1,17px;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
-
   }
   .link {
     color: #2E2F42;
@@ -196,7 +193,7 @@ flex-grow: 0;
 }
 
 .footer-section{
-  background-color: #2E2F42;
+  background-color: #2E2F42 ;
 }
 
 .footer-link{
