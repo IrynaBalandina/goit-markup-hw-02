@@ -282,6 +282,7 @@ color: #2E2F42;
 flex: none;
 order: 0;
 flex-grow: 0;
+text-decoration: none;
   }
 
   .features-items{
@@ -292,4 +293,5 @@ flex-grow: 0;
     line-height: 1,5px;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
   }
