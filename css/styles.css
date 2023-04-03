@@ -82,7 +82,19 @@ text-decoration: none;
     flex-grow: 0;
   }
   
+  .header-contacts{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color-navyblue);
+      }
 
+      main{
+        background-color: #FFFFFF;
+      }
   .order-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -102,15 +114,10 @@ background-color:#404BBF
     background-color: #404BBF;
   }
 
-  .header-contacts{
-font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primary-color-navyblue);
-  }
+  .order-button{
+    background-color:#4D5AE5 ;
+    color: #FFFFFF;
+    }
 
   .section-hero{
     background-color:#2E2F42 ;
@@ -138,12 +145,6 @@ color: var(--primary-color-navyblue);
     
 }
 
-.order-button{
-background-color:#4D5AE5 ;
-color: #FFFFFF;
-}
-
-
 
 .features-title-item{
     font-family: 'Roboto',sans-serif;
@@ -167,7 +168,7 @@ font-size: 16px;
 line-height: 1.5;
 
 letter-spacing: 0.02em;
-color: #434455;
+color:var(--#434455);
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -180,6 +181,29 @@ flex-grow: 0;
   background-color: #F4F4FD;
 }
 
+.sub-title1{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height:1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--#2E2F42);
+}
+
+.sub-title2{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--#2E2F42) ;
+}
 .team-section{
   background-color: #F4F4FD ;
 }
@@ -190,17 +214,7 @@ flex-grow: 0;
 }
 
 
-.sub-title{
-    font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height:1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--#2E2F42);
-}
+
 .team-name{
     font-family: 'Roboto',sans-serif;
 font-style: normal;
