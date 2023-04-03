@@ -24,11 +24,11 @@ text-decoration: none;
 color: var(--#4d5ae5);
 
   }
-  .header-link: {
+  .link {
     color: #2E2F42;
   }
   
-  .header-link:hover {
+  .link:hover {
     color: #4D5AE5;
    
   }
@@ -52,7 +52,7 @@ flex-grow: 0;
 text-decoration: none;
   }
 
- 
+  .header-logo:hover
 
 .list{
   list-style: none;
@@ -60,7 +60,7 @@ text-decoration: none;
   color: var(--primary-color-navyblue);
 }
 
-
+  
 
   .contacts{
     font-style: normal;
@@ -166,6 +166,10 @@ color: #434455;
 flex: none;
 order: 1;
 flex-grow: 0;
+}
+
+.team-section{
+  background-color: #FFFFFF;
 }
 
 .team-items{
