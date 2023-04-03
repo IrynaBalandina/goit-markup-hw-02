@@ -46,7 +46,7 @@ flex-grow: 0;
 }
 
 .link{
-  color:var(--#434455 ) ;
+  color:var(--) ;
 }
   .link:hover,
   .link:focus{
@@ -189,6 +189,17 @@ text-transform: capitalize;
 color: var(-- #2E2F42);
 }
 
+.sub-title-team{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height:1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(-- #2E2F42);
+}
 
 .team-section{
   background-color: #F4F4FD ;
