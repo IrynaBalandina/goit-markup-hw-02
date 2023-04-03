@@ -305,6 +305,11 @@ text-decoration: none;
     
   }
 
+  .link{
+    text-decoration: none;
+    
+  }
+
   .features-subtitles{
     font-family: 'Roboto', sans-serif;
 font-style: normal;
