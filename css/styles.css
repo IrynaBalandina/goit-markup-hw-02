@@ -281,8 +281,8 @@ text-decoration: none;
     .filter-button:hover,
     .filter-button:focus{
     
-      color:#FFFFFF ;
-       color: #FFFFFF;
+      color:var(--background-color) ;
+       color:var(--background-color);
     }
 
 .filter-button:hover,
