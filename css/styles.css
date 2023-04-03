@@ -173,10 +173,9 @@ order: 1;
 flex-grow: 0;
 }
 
-.team-section{
-  background-color: #F4F4FD ;
-  font-family: 'Roboto',sans-serif;
-  font-style: normal;
+.team-items{
+  background-color: #FFFFFF ;
+ 
 }
 
 
@@ -285,10 +284,6 @@ text-decoration: none;
   height: 48px;
   color: var(--#4d5ae5 ) ;
   background-color: var(-- #F4F4FD);
-  border-radius: 4px;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
   cursor: pointer;
   text-decoration: none;
     }
