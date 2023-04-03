@@ -168,6 +168,10 @@ order: 1;
 flex-grow: 0;
 }
 
+.doing-section{
+  background-color: #FFFFFF;
+}
+
 .team-section{
   background-color: #F4F4FD ;
 }
