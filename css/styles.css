@@ -267,7 +267,7 @@ text-decoration: none;
   padding: 12px 24px;
   width: 126px;
   height: 48px;
-  background:#404BBF;
+  background: var(--#404BBF;) 
   border: 1px solid #E7E9FC;
   border-radius: 4px;
   flex: none;
@@ -277,7 +277,13 @@ text-decoration: none;
   text-decoration: none;
     }
 
-  
+    .filter-button-all:hover{
+color:#FFFFFF ;
+ 
+    }
+    .filter-button-all:focus{
+      color: #FFFFFF;
+    }
 
   .filter-button{
     font-family: 'Roboto',sans-serif;
@@ -294,6 +300,7 @@ text-decoration: none;
     order: 0;
     flex-grow: 0;
    background-color:var(#F4F4FD) ;
+   color:var(--#4D5AE5;) ;
 cursor: pointer;
 text-decoration: none;
   }
