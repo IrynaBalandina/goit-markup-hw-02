@@ -268,7 +268,7 @@ text-decoration: none;
   padding: 12px 24px;
   width: 126px;
   height: 48px;
- color: var(--#4d5ae5) ;
+  color: var(--#4d5ae5 ) ;
   background-color: var(-- #F4F4FD);
   border-radius: 4px;
   flex: none;
@@ -278,12 +278,11 @@ text-decoration: none;
   text-decoration: none;
     }
 
-    .filter-button:hover{
-color:#FFFFFF ;
- 
-    }
+    .filter-button:hover,
     .filter-button:focus{
-      color: #FFFFFF;
+    
+      color:#FFFFFF ;
+       color: #FFFFFF;
     }
 
 .filter-button:hover,
