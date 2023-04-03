@@ -45,7 +45,9 @@ order: 1;
 flex-grow: 0;
 }
 
-
+.link{
+  color:var(--#434455 ) ;
+}
   .link:hover,
   .link:focus{
     color: #404bbf;
@@ -70,7 +72,7 @@ flex-grow: 0;
     font-size: 16px;
     line-height: 1.5;  
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--#2E2F42) ;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -187,17 +189,7 @@ text-transform: capitalize;
 color: var(-- #2E2F42);
 }
 
-.sub-title{
-  font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color:var(--#2E2F42) ;
-}
+
 .team-section{
   background-color: #F4F4FD ;
 }
