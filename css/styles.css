@@ -24,11 +24,11 @@ text-decoration: none;
 color: var(--#4d5ae5);
 
   }
-  .link {
+  .header-link: {
     color: #2E2F42;
   }
   
-  .link:hover {
+  .header-link:hover {
     color: #4D5AE5;
    
   }
@@ -52,7 +52,7 @@ flex-grow: 0;
 text-decoration: none;
   }
 
-  .header-logo:hover
+ 
 
 .list{
   list-style: none;
