@@ -278,28 +278,18 @@ text-decoration: none;
   text-decoration: none;
     }
 
-    .filter-button-all:hover{
+    .filter-button:hover{
 color:#FFFFFF ;
  
     }
-    .filter-button-all:focus{
+    .filter-button:focus{
       color: #FFFFFF;
     }
 
-.filter-button:hover{
-  background-color: #404BBF;
-}
-
+.filter-button:hover,
 .filter-button:focus{
-  background-color:#404BBF ;
-}
-
-  
-
-  .filter-button:hover{
-    color:#4D5AE5 ;
-    background-color: #E7E9FC;
-
+  background-color: var(--ocean);
+  color:var(--cornflower ) ;
     
   }
 
