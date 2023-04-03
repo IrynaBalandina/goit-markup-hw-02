@@ -267,8 +267,8 @@ text-decoration: none;
   padding: 12px 24px;
   width: 126px;
   height: 48px;
-  background: var(--#404BBF;) 
-  border: 1px solid #E7E9FC;
+  background: var(--#404BBF) ;
+  color: var(-- #F4F4FD);
   border-radius: 4px;
   flex: none;
   order: 4;
@@ -284,6 +284,14 @@ color:#FFFFFF ;
     .filter-button-all:focus{
       color: #FFFFFF;
     }
+
+.filter-button-all:hover{
+  background-color: #404BBF;
+}
+
+.filter-button-all:focus{
+  background-color:#404BBF ;
+}
 
   .filter-button{
     font-family: 'Roboto',sans-serif;
