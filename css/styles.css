@@ -173,6 +173,11 @@ flex-grow: 0;
 .team-section{
   background-color: #F4F4FD ;
 }
+
+.team-items{
+  background-color: #FFFFFF;
+  
+}
 .sub-title{
     font-family: 'Roboto',sans-serif;
 font-style: normal;
