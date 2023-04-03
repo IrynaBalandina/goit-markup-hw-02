@@ -52,7 +52,11 @@ flex-grow: 0;
 text-decoration: none;
   }
 
-  .header-logo:hover
+  .link:hover,
+  .link:focus{
+    color: #404bbf;
+    color: #404bbf;
+  }
 
 .list{
   list-style: none;
@@ -153,6 +157,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
 
 .features-text-item{
     font-family: 'Roboto',sans-serif;
