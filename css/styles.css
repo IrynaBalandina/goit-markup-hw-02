@@ -295,23 +295,26 @@ color:#FFFFFF ;
 }
 
   .filter-button{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color:var(--#4D5AE5) ;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-   background-color:var(#F4F4FD) ;
-   color:var(--#4D5AE5;) ;
-cursor: pointer;
-text-decoration: none;
+    font-family:'Roboto',sans-serif ;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 12px 24px;
+  width: 126px;
+  height: 48px;
+  background: var(--#404BBF) ;
+  color: var(-- #F4F4FD);
+  border-radius: 4px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  cursor: pointer;
+  text-decoration: none;
   }
 
   .filter-button:hover{
