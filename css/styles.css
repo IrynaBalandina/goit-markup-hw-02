@@ -60,10 +60,7 @@ text-decoration: none;
   color: var(--primary-color-navyblue);
 }
 
-  .team-section{
-    background-color: #F4F4FD;
-    background-color: white;
-  }
+
 
   .contacts{
     font-style: normal;
@@ -142,9 +139,7 @@ background-color:#4D5AE5 ;
 color: #FFFFFF;
 }
 
-.features-list{
 
-}
 
 .features-title-item{
     font-family: 'Roboto',sans-serif;
