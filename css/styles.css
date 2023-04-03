@@ -255,7 +255,7 @@ text-decoration: none;
   flex-grow: 0;
 }
 
-.filter-button-all{
+.filter-button{
   font-family:'Roboto',sans-serif ;
   font-weight: 500;
   font-size: 16px;
@@ -268,8 +268,8 @@ text-decoration: none;
   padding: 12px 24px;
   width: 126px;
   height: 48px;
-  background: var(--#404BBF) ;
-  color: var(-- #F4F4FD);
+ color: var(--#4d5ae5) ;
+  background-color: var(-- #F4F4FD);
   border-radius: 4px;
   flex: none;
   order: 4;
@@ -286,36 +286,15 @@ color:#FFFFFF ;
       color: #FFFFFF;
     }
 
-.filter-button-all:hover{
+.filter-button:hover{
   background-color: #404BBF;
 }
 
-.filter-button-all:focus{
+.filter-button:focus{
   background-color:#404BBF ;
 }
 
-  .filter-button{
-    font-family:'Roboto',sans-serif ;
-  font-weight: 500;
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding: 12px 24px;
-  width: 126px;
-  height: 48px;
-  background: var(--#404BBF) ;
-  color: var(-- #F4F4FD);
-  border-radius: 4px;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
-  cursor: pointer;
-  text-decoration: none;
-  }
+  
 
   .filter-button:hover{
     color:#4D5AE5 ;
