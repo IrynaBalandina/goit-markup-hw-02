@@ -295,16 +295,16 @@ background-color: #FFFFFF;
   padding: 12px 24px;
   width: 126px;
   height: 48px;
-  color: var(--#4d5ae5 ) ;
-  background-color: var(-- #F4F4FD);
+  color: var(--#4d5ae5) ;
+  background-color: var(--#F4F4FD);
   cursor: pointer;
   text-decoration: none;
     }
 
     .filter-button:hover,
     .filter-button:focus{
-     color:var(--background-color) ;
-       color:var(--background-color);
+     color:var(--#FFFFFF) ;
+       color:var(--#FFFFFF);
     }
   
     .filter-button:hover,
