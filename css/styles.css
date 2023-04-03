@@ -189,17 +189,7 @@ text-transform: capitalize;
 color: var(-- #2E2F42);
 }
 
-.sub-title-team{
-  font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height:1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(-- #2E2F42);
-}
+
 
 .team-section{
   background-color: #F4F4FD ;
@@ -211,37 +201,6 @@ color: var(-- #2E2F42);
 }
 
 
-
-.team-name{
-    font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height:1.2;
-letter-spacing: 0.02em;
-color: var(-- #2e2f42 );
-flex: none;
-order: 0;
-flex-grow: 0;
-text-decoration: none;
-background-color: #FFFFFF;
-}
-
-.team-position{
-  font-family: 'Roboto',sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  
-  letter-spacing: 0.02em;
-  color:var(-- #434455);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  background-color: #FFFFFF;
-  
-}
 
 .footer-section{
   background-color: #2E2F42 ;
