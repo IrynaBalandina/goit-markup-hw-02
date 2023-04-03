@@ -175,6 +175,8 @@ flex-grow: 0;
 
 .team-section{
   background-color: #F4F4FD ;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
 }
 
 
@@ -293,18 +295,15 @@ text-decoration: none;
 
     .filter-button:hover,
     .filter-button:focus{
-    
-      color:var(--background-color) ;
+     color:var(--background-color) ;
        color:var(--background-color);
     }
-
-.filter-button:hover,
-.filter-button:focus{
-  background-color: var(--ocean);
-  color:var(--cornflower ) ;
-    
-  }
-
+  
+    .filter-button:hover,
+    .filter-button:focus{
+      background-color: var(--ocean);
+      color:var(--cornflower ) ;
+    }
   .link{
     text-decoration: none;
     
