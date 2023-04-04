@@ -271,7 +271,7 @@ color: var(--main-text-color);
   width: 126px;
   height: 48px;
   color: var(--iris) ;
-  background-color: var(--#F4F4FD);
+  background-color: var(--cloud);
   cursor: pointer;
  
     }
@@ -279,7 +279,7 @@ color: var(--main-text-color);
     .filter-button:hover,
     .filter-button:focus{
      color:var(--background-color);
-    color:var(--background-color);
+   
     }
   
     .filter-button:hover,
