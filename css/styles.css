@@ -151,7 +151,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42 ;
+color:var(--#2E2F42) ;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -163,7 +163,7 @@ flex-grow: 0;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:#434455;
+color:var(--#434455);
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -285,17 +285,13 @@ color: var(-- #2E2F42);
   }
 
   .features-subtitles{
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:var(--#2E2F42) ;
-flex: none;
-order: 0;
-flex-grow: 0;
-text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
   }
 
   .features-items{
