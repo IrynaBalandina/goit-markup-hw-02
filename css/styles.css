@@ -97,7 +97,14 @@ color:var(--main-text-color);
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
       }
+.mail-contact{
+  color: var(--secondary-text-color);
 
+}
+
+.phone-number{
+  color: var(--secondary-text-color);
+}
 
       main{
         background-color: #FFFFFF;
