@@ -88,7 +88,7 @@ color:var(-- #2E2F42);
     flex-grow: 0;
   }
   
-  .header-contacts{
+  .header-contacts-items{
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
