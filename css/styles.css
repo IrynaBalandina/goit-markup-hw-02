@@ -50,10 +50,18 @@ flex-grow: 0;
   text-decoration: none;
   color: var(-- #2E2F42);
 }
-
+.nav-link{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(-- #2E2F42);
+}
 
 .link{
-  color:var(--#2e2f42 ) ;
+  text-decoration: none;
 }
   .link:hover,
   .link:focus{
