@@ -1,11 +1,11 @@
 :root {
  --background-color:#FFFFFF ;
  --cornflower: #E7E9FC ;
- --navy-blue: #2E2F42 ;
+ --main-text-color: #2E2F42 ;
  --cloud:#f4f4fd ;
  --iris: #4D5AE5 ;
  --ocean: #404BBF ;
- --slate:#434455 ;
+ --secondary-text-color:#434455 ;
 
   }
 
@@ -48,7 +48,7 @@ flex-grow: 0;
 .list{
   list-style: none;
   text-decoration: none;
-  color: var(-- #2E2F42);
+  color: var(--2E2F42);
 }
 .nav-link{
   font-family: 'Roboto',sans-serif;
@@ -57,7 +57,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(-- #2E2F42);
+color:var(--main-text-color);
 }
 
 .link{
@@ -82,7 +82,7 @@ color:var(-- #2E2F42);
     font-size: 16px;
     line-height: 1.5;  
     letter-spacing: 0.02em;
-    color:var(--#2E2F42) ;
+    color:var(--main-text-color) ;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -95,7 +95,7 @@ color:var(-- #2E2F42);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-color-navyblue);
+    color: var(--secondary-text-color);
       }
 
       main{
@@ -159,7 +159,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color:var(--#2E2F42) ;
+color:var(--main-text-color) ;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -171,7 +171,7 @@ flex-grow: 0;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--#434455);
+color:var(--secondary-text-color);
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -193,7 +193,7 @@ line-height:1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(-- #2E2F42);
+color: var(--main-text-color);
 }
 
 
@@ -270,16 +270,16 @@ color: var(-- #2E2F42);
   padding: 12px 24px;
   width: 126px;
   height: 48px;
-  color: var(--#4d5ae5) ;
+  color: var(--iris) ;
   background-color: var(--#F4F4FD);
   cursor: pointer;
-  text-decoration: none;
+ 
     }
 
     .filter-button:hover,
     .filter-button:focus{
-     color:var(--#FFFFFF) ;
-       color:var(--#FFFFFF);
+     color:var(--background-color);
+    color:var(--background-color);
     }
   
     .filter-button:hover,
