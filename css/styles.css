@@ -276,17 +276,19 @@ color: var(--main-text-color);
  
     }
 
-    .filter-button:hover,
-    .filter-button:focus{
-     color:#FFFFFF;
-    
-    }
   
     .filter-button:hover,
     .filter-button:focus{
       background-color: var(--ocean);
       color:var(--cornflower ) ;
     }
+
+    .filter-button:hover,
+    .filter-button:focus{
+     color:#FFFFFF;
+    
+    }
+
   .link{
     text-decoration: none;
     
