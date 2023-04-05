@@ -10,7 +10,7 @@
   }
 
 .header-hero{
-background-color: #FFFFFF;
+background-color:var(--background-color);
 }
 
 
@@ -23,14 +23,13 @@ background-color: #FFFFFF;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
-  order: 0;
-  flex-grow: 0;
+  color:var(--iris);
+ 
 }
 
 .header-logo{
   font-family: 'Raleway',sans-serif;
-font-style: normal;
+
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -38,10 +37,9 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color:var(--main-text-color);
 flex: none;
-order: 1;
-flex-grow: 0;
+
 }
 
 
@@ -71,15 +69,14 @@ color:var(--main-text-color);
   }
   .header-item{
     font-family: 'Roboto',sans-serif;
-    font-style: normal;
+  
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;  
     letter-spacing: 0.02em;
     color:var(--main-text-color) ;
     flex: none;
-    order: 1;
-    flex-grow: 0;
+   
   }
 
   .list{
@@ -91,7 +88,7 @@ color:var(--main-text-color);
   .contact{
     font-family: 'Roboto',sans-serif;
  
-    font-weight: 400;
+   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -117,7 +114,7 @@ color:var(--main-text-color);
 }
 
 .order-button{
-background-color:#404BBF
+background-color: var(--ocean)
 }
 .order-button:hover,
 .order-button:focus {
@@ -134,39 +131,34 @@ background-color:#404BBF
   }
   body{
     font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
    
   background-color: var(--background-color);
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--secondary-text-color);
   }
 
 .hero-body-title{
     font-family: 'Roboto',sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color:var(--background-color);
     
 }
 
 
 .features-title-item{
     font-family: 'Roboto',sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--main-text-color) ;
 flex: none;
-order: 0;
-flex-grow: 0;
+
 }
 
 
@@ -177,20 +169,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--secondary-text-color);
 flex: none;
-order: 1;
-flex-grow: 0;
+
 }
 
 .doing-section{
-  background-color: #FFFFFF;
+  background-color:var(--background-color);
 }
-.list{
-  background-color: #F4F4FD;
-}
+
 
 .sub-title{
   font-family: 'Roboto',sans-serif;
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height:1.11;
@@ -200,26 +188,12 @@ text-transform: capitalize;
 color: var(--main-text-color);
 }
 
-
-
-.team-section{
-  background-color: #F4F4FD ;
-}
-
-.team-items{
-  background-color: #FFFFFF ;
- 
-}
-
-
-
 .footer-section{
-  background-color: #2E2F42 ;
+  background-color:var(--main-text-color);
 }
 
 .footer-link{
   font-family: 'Raleway',sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -227,15 +201,12 @@ color: var(--main-text-color);
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
-    order: 0;
-    flex-grow: 0;
+    color:var(--iris) ;
     text-decoration: none;
 }
 
 .footer-logo{
   font-family: 'Raleway',sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -243,10 +214,8 @@ color: var(--main-text-color);
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:  #f4f4fd;
+  color: var(--cloud);
   flex: none;
-  order: 1;
-  flex-grow: 0;
   text-decoration: none;
 }
 .footer-text-item{
@@ -255,10 +224,9 @@ color: var(--main-text-color);
   line-height: 1.5;
 
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color:var(--cloud);
   flex: none;
-  order: 1;
-  flex-grow: 0;
+  
 }
 
 .filter-button{
@@ -289,7 +257,7 @@ color: var(--main-text-color);
 
     .filter-button:hover,
     .filter-button:focus{
-     color:#FFFFFF;
+     color:var(--background-color);
     
     }
 
@@ -300,12 +268,11 @@ color: var(--main-text-color);
 
   .features-subtitles{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height:1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--main-text-color);
   }
 
   .features-items{
@@ -313,6 +280,6 @@ color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--secondary-text-color);
     text-decoration: none;
   }
